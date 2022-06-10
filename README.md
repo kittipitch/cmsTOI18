@@ -1,3 +1,49 @@
+TOI18
+
+### Working dir
+
+Edit ที่
+/home/graderadmin/cms/cmsranking/
+แล้ว
+
+$ cd /home/graderadmin/cms/
+$ sudo python3 setup.py install
+
+หรือจะไปแก้โดยตรงที่ 
+/usr/local/lib/python3.6/dist-packages/cms-1.4rc1-py3.6.egg/cmsranking/
+
+
+### CSS dir
+/usr/local/lib/python3.6/dist-packages/cms-1.4rc1-py3.6.egg/cmsranking/static 
+
+### Data dir:
+/var/local/lib/cms/ranking
+
+
+cd ไปที่ /usr/local/lib/python3.6/dist-packages/cms-1.4rc1-py3.6.egg/cmsranking/
+
+
+cd ไปที่static แล้วสร้างfolder faces img flags
+
+#### faces ไว้ได้สองที่
+1./var/local/lib/cms/ranking
+2./usr/local/lib/python3.6/dist-packages/cms-1.4rc1-py3.6.egg/cmsranking/static  <- แล้วสร้าง dir ชื่อ faces
+ไฟล์ไม่ใส่นามสกุล
+
+
+#### Flags ไว้ได้ที่เดียว
+1./usr/local/lib/python3.6/dist-packages/cms-1.4rc1-py3.6.egg/cmsranking/static  <- แล้วสร้าง dir ชื่อ flags
+ไฟล์ไม่ใส่นามสกุล
+
+#### Logo
+
+เอา logo ใส่ที่ /var/local/lib/cms/ranking
+logo.png
+
+
+
+
+
 Contest Management System
 =========================
 
